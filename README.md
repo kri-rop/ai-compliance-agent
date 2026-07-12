@@ -112,6 +112,24 @@ ai-compliance-agent
     └── knowledge_import_workflow.json
 ```
 
+## Setup and Import
+
+The workflow files are sanitized portfolio exports. Credentials, account references and private file identifiers were intentionally removed.
+
+1. Import both JSON files into n8n.
+
+2. Configure credentials for Anthropic, Google Gemini, Google Drive and Supabase.
+
+3. In the Knowledge Import Workflow, select the legal source file and confirm that the Supabase Vector Store uses the `documents` table.
+
+4. Run the Knowledge Import Workflow before testing the Agent Workflow.
+
+5. Confirm that both workflows use the same Supabase table and compatible Gemini embeddings.
+
+6. Open the n8n chat interface and test the agent with a defined compliance scenario.
+
+The workflows require individual environment configuration before execution.
+
 ## Testing and Validation
 
 The agent was tested with defined business scenarios covering both GDPR and EU AI Act relevance. 
