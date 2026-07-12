@@ -94,6 +94,24 @@ Provides the source files used by the knowledge import workflow.
 
 7. Requests outside the defined compliance scope are declined. The agent only explains when a possible compliance connection could arise.
 
+## Repository Structure
+
+```text
+ai-compliance-agent
+├── README.md
+├── LICENSE
+├── docs
+│   ├── testing.md
+│   └── example_output.md
+├── images
+│   ├── agent_workflow.png
+│   ├── knowledge_import_workflow.png
+│   └── agent_response_example.png
+└── workflows
+    ├── agent_workflow.json
+    └── knowledge_import_workflow.json
+```
+
 ## Testing and Validation
 
 The agent was tested with defined business scenarios covering both GDPR and EU AI Act relevance. 
