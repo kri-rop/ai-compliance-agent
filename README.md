@@ -92,7 +92,13 @@ Provides the source files used by the knowledge import workflow.
 
 ## Testing and Validation
 
-The agent was tested with defined business scenarios covering both GDPR and EU AI Act relevance.
+The agent was tested with defined business scenarios covering both GDPR and EU AI Act relevance. 
+
+### Example Agent Output
+
+The screenshot below shows a representative excerpt from a validated recruiting compliance scenario. It demonstrates the structured assessment, identification of relevant legal areas and practical compliance guidance.
+
+![Example agent response](images/agent_response_example.png)
 
 Test cases included:
 
