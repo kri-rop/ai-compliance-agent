@@ -100,6 +100,10 @@ The screenshot below shows a representative excerpt from a validated recruiting 
 
 ![Example agent response](images/agent_response_example.png)
 
+The complete example output, including the original user question and full compliance assessment, is available in the documentation.
+
+[View the complete example output](docs/example_output.md)
+
 Test cases included:
 
 1. AI supported customer service with personal data.
