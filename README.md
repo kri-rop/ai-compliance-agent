@@ -40,6 +40,8 @@ This workflow imports the GDPR and EU AI Act source files, extracts the text, sp
 
 ![Knowledge import workflow](images/knowledge_import_workflow.png)
 
+[View Knowledge Import Workflow JSON](workflows/knowledge_import_workflow.json)
+
 ### 2. Agent Workflow
 
 This workflow receives user questions, retrieves relevant legal context from Supabase, maintains conversation memory and uses Claude to generate structured compliance guidance.
@@ -47,6 +49,8 @@ This workflow receives user questions, retrieves relevant legal context from Sup
 Separating knowledge ingestion from the agent logic keeps the architecture modular, easier to test and easier to extend.
 
 ![Agent workflow](images/agent_workflow.png)
+
+[View Agent Workflow JSON](workflows/agent_workflow.json)
 
 ## Tech Stack
 
