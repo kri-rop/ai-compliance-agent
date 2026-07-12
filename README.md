@@ -116,6 +116,10 @@ Test cases included:
 
 The tests validated legal retrieval, targeted follow up questions, scope control and practical response structure.
 
+The complete test documentation is available here:
+
+[View testing and validation documentation](docs/testing.md)
+
 The system prompt was refined iteratively to improve clarity, legal caution, tool usage and relevance for employees.
 
 ## Key Design Decisions
