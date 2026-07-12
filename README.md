@@ -38,11 +38,15 @@ The solution consists of two separate n8n workflows.
 
 This workflow imports the GDPR and EU AI Act source files, extracts the text, splits the content into searchable sections, generates Gemini embeddings and stores the resulting vectors in Supabase.
 
+![Knowledge import workflow](images/knowledge_import_workflow.png)
+
 ### 2. Agent Workflow
 
 This workflow receives user questions, retrieves relevant legal context from Supabase, maintains conversation memory and uses Claude to generate structured compliance guidance.
 
 Separating knowledge ingestion from the agent logic keeps the architecture modular, easier to test and easier to extend.
+
+![Agent workflow](images/agent_workflow.png)
 
 ## Tech Stack
 
